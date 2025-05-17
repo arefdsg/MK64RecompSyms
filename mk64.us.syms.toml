@@ -117,6 +117,7 @@ functions = [
     { name = "func_800C2A2C", vram = 0x800C2A2C, size = 0xA1C },
     { name = "dma_tkmk00_textures", vram = 0x80099088, size = 0x88 },
     { name = "init_vehicles_school_buses", vram = 0x80014934, size = 0x9C },
+    { name = "func_80040C54", vram = 0x80040C54, size = 0x3C },
     { name = "seq_channel_layer_free", vram = 0x800BEB54, size = 0x50 },
     { name = "func_80041D34", vram = 0x80041D34, size = 0x1C0 },
     { name = "profiler_log_thread4_time", vram = 0x800035E0, size = 0x7C },
