@@ -117,7 +117,6 @@ functions = [
     { name = "func_800C2A2C", vram = 0x800C2A2C, size = 0xA1C },
     { name = "dma_tkmk00_textures", vram = 0x80099088, size = 0x88 },
     { name = "init_vehicles_school_buses", vram = 0x80014934, size = 0x9C },
-    { name = "func_80040C54", vram = 0x80040C54, size = 0x3C },
     { name = "seq_channel_layer_free", vram = 0x800BEB54, size = 0x50 },
     { name = "func_80041D34", vram = 0x80041D34, size = 0x1C0 },
     { name = "profiler_log_thread4_time", vram = 0x800035E0, size = 0x7C },
@@ -1060,9 +1059,6 @@ functions = [
     { name = "func_8009AB7C", vram = 0x8009AB7C, size = 0x1FC },
     { name = "func_80047068", vram = 0x80047068, size = 0x208 },
     { name = "osInvalDCache", vram = 0x800CDB80, size = 0xB0 },
-    { name = "osInvalICache", vram = 0x800CDB00, size = 0x80 },
-    { name = "osGetCount", vram = 0x800D11A0, size = 0x10 },
-	{ name = "osWritebackDCacheAll", vram = 0x800CD890, size = 0x30 },
     { name = "get_portamento_freq_scale", vram = 0x800BE158, size = 0xD4 },
     { name = "func_8004E3B8", vram = 0x8004E3B8, size = 0x8 },
     { name = "func_80098FC8", vram = 0x80098FC8, size = 0x38 },
@@ -2632,6 +2628,10 @@ functions = [
     { name = "func_8004E3C0", vram = 0x8004E3C0, size = 0x34 },
     { name = "profiler_log_vblank_time", vram = 0x800036EC, size = 0x7C },
     { name = "func_800911B4", vram = 0x800911B4, size = 0xE4 },
+    { name = "osWritebackDCacheAll_stub", vram = 0x800CD890, size = 0x30 },
+    { name = "osInvalICache_stub", vram = 0x800CDB00, size = 0x80 },
+    { name = "osGetCount_stub", vram = 0x800D11A0, size = 0x10 },
+    { name = "tkmk_80040C54", vram = 0x80040C54, size = 0x3C },
 ]
 
 [[section]]
@@ -3199,4 +3199,3 @@ functions = [
     { name = "func_80284154", vram = 0x80284154, size = 0x30 },
     { name = "func_8028150C", vram = 0x8028150C, size = 0x14 },
 ]
-
